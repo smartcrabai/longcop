@@ -6,13 +6,13 @@ import (
 	"os"
 	"time"
 
-	"longcop/internal/app"
-	"longcop/internal/console"
-	copilotrunner "longcop/internal/copilot"
-	"longcop/internal/pullrequest"
-	"longcop/internal/skills"
-	"longcop/internal/system"
-	"longcop/internal/workspace"
+	"github.com/smartcrabai/longcop/internal/app"
+	"github.com/smartcrabai/longcop/internal/console"
+	copilotrunner "github.com/smartcrabai/longcop/internal/copilot"
+	"github.com/smartcrabai/longcop/internal/pullrequest"
+	"github.com/smartcrabai/longcop/internal/skills"
+	"github.com/smartcrabai/longcop/internal/system"
+	"github.com/smartcrabai/longcop/internal/workspace"
 )
 
 func main() {

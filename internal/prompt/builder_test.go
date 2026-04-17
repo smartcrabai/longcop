@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"longcop/internal/config"
-	"longcop/internal/workflow"
+	"github.com/smartcrabai/longcop/internal/config"
+	"github.com/smartcrabai/longcop/internal/workflow"
 )
 
 func TestBuildIncludesSimplifyAndAntiPatternSteps(t *testing.T) {

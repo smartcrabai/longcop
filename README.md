@@ -16,11 +16,30 @@ A CLI tool that drives [GitHub Copilot CLI](https://github.com/github/copilot-sd
 
 ## Installation
 
-Download the latest release from [GitHub Releases](https://github.com/smartcrabai/longcop/releases).
-
-Or build from source:
+### Homebrew (macOS & Linux)
 
 ```bash
+brew tap smartcrabai/tap
+brew install lcop
+```
+
+### go install
+
+Requires Go 1.26+.
+
+```bash
+go install github.com/smartcrabai/longcop/cmd/lcop@latest
+```
+
+### Download binary
+
+Download the latest release from [GitHub Releases](https://github.com/smartcrabai/longcop/releases).
+
+### Build from source
+
+```bash
+git clone https://github.com/smartcrabai/longcop.git
+cd longcop
 go build -o lcop ./cmd/lcop
 ```
 

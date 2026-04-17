@@ -13,11 +13,11 @@ import (
 
 	copilotsdk "github.com/github/copilot-sdk/go"
 
-	"longcop/internal/config"
-	"longcop/internal/errutil"
-	"longcop/internal/prompt"
-	"longcop/internal/system"
-	"longcop/internal/workflow"
+	"github.com/smartcrabai/longcop/internal/config"
+	"github.com/smartcrabai/longcop/internal/errutil"
+	"github.com/smartcrabai/longcop/internal/prompt"
+	"github.com/smartcrabai/longcop/internal/system"
+	"github.com/smartcrabai/longcop/internal/workflow"
 )
 
 type Runner struct {

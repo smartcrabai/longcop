@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"longcop/internal/workflow"
+	"github.com/smartcrabai/longcop/internal/workflow"
 )
 
 type fakeShell struct {

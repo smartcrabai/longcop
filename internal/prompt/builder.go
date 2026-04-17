@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"longcop/internal/config"
-	"longcop/internal/workflow"
+	"github.com/smartcrabai/longcop/internal/config"
+	"github.com/smartcrabai/longcop/internal/workflow"
 )
 
 type Builder struct{}

@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"longcop/internal/errutil"
-	"longcop/internal/workflow"
+	"github.com/smartcrabai/longcop/internal/errutil"
+	"github.com/smartcrabai/longcop/internal/workflow"
 )
 
 type UI interface {

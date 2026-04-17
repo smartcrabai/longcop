@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"longcop/internal/config"
-	"longcop/internal/system"
-	"longcop/internal/workflow"
+	"github.com/smartcrabai/longcop/internal/config"
+	"github.com/smartcrabai/longcop/internal/system"
+	"github.com/smartcrabai/longcop/internal/workflow"
 )
 
 var invalidBranchCharacters = regexp.MustCompile(`[^a-z0-9]+`)

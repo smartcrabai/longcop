@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"longcop/internal/workflow"
+	"github.com/smartcrabai/longcop/internal/workflow"
 )
 
 type fakeRunner struct {

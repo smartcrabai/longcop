@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"longcop/internal/workflow"
+	"github.com/smartcrabai/longcop/internal/workflow"
 )
 
 type fakeUI struct {

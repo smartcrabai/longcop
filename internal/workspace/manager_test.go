@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"longcop/internal/system"
-	"longcop/internal/workflow"
+	"github.com/smartcrabai/longcop/internal/system"
+	"github.com/smartcrabai/longcop/internal/workflow"
 )
 
 type fakeRunner struct {

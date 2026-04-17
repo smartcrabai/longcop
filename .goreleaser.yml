@@ -21,6 +21,19 @@ archives:
       {{- .Os }}_
       {{- .Arch }}
 
+brews:
+  - name: lcop
+    repository:
+      owner: smartcrabai
+      name: homebrew-tap
+      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
+    directory: Formula
+    homepage: "https://github.com/smartcrabai/longcop"
+    description: "CLI tool that drives GitHub Copilot CLI through a structured implementation workflow"
+    install: |
+      bin.install "lcop"
+    commit_msg_template: "Brew formula update for {{ .ProjectName }} version {{ .Tag }}"
+
 checksum:
   name_template: checksums.txt
 

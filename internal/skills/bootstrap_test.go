@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"longcop/internal/config"
+	"github.com/smartcrabai/longcop/internal/config"
 )
 
 func TestEnsureCreatesExpectedSkillFiles(t *testing.T) {

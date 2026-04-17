@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"longcop/internal/config"
+	"github.com/smartcrabai/longcop/internal/config"
 )
 
 type Bootstrapper struct {
