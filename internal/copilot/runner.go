@@ -83,7 +83,10 @@ func (r *Runner) Run(ctx context.Context, spec workflow.RunSpec) (result workflo
 		err = errors.Join(err, errutil.Wrap("disconnect Copilot SDK session", session.Disconnect()))
 	}()
 
-	reply, err := session.SendAndWait(ctx, copilotsdk.MessageOptions{Prompt: r.builder.Build(spec)})
+	sendCtx, cancel := context.WithTimeout(ctx, config.CopilotReplyTimeout)
+	defer cancel()
+
+	reply, err := session.SendAndWait(sendCtx, copilotsdk.MessageOptions{Prompt: r.builder.Build(spec)})
 	if err != nil {
 		return workflow.RunResult{}, fmt.Errorf("run Copilot SDK prompt: %w", err)
 	}

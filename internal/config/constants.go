@@ -1,5 +1,7 @@
 package config
 
+import "time"
+
 const (
 	AppName                         = "lcop"
 	ConfigDirectoryName             = ".lcop"
@@ -20,6 +22,7 @@ const (
 	PullRequestCreatorToolName = "PullRequestCreator"
 	CopilotClientName          = "longcop"
 	CopilotCLIPathEnv          = "COPILOT_CLI_PATH"
+	CopilotReplyTimeout        = 196 * time.Hour
 
 	WorktreeRootDirectoryName = ".longcop"
 	WorktreeLeafDirectoryName = "worktrees"
