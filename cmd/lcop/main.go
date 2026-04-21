@@ -38,7 +38,7 @@ func main() {
 		if len(args) == 1 {
 			switch args[0] {
 			case "-h", "--help":
-				fmt.Fprint(os.Stdout, helpText)
+				fmt.Print(helpText)
 				return
 			case "-v", "--version":
 				fmt.Println(resolveVersion())
