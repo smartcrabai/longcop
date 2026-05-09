@@ -2,7 +2,7 @@ module github.com/smartcrabai/longcop
 
 go 1.26.2
 
-require github.com/github/copilot-sdk/go v0.2.2
+require github.com/github/copilot-sdk/go v0.3.0
 
 require (
 	github.com/go-logr/logr v1.4.3 // indirect
